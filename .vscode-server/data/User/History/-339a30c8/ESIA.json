@@ -1,0 +1,57 @@
+{
+    "editor.fontSize": 20,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.autofetch": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "python.terminal.executeInFileDir": true,
+    "[javascriptreact]": {
+    "editor.formatOnSave": false
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/wille/.vscode/extensions/atlassian.atlascode-3.0.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+        {
+            "id": "6c756b2c-6090-4118-9372-157fce4b6cc9",
+            "enabled": true,
+            "name": "My mohawk-medic Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "15b618e0-a13e-4446-8f64-93363867fce0",
+            "monitor": true
+        }
+    ],
+    "git.enableSmartCommit": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontFamily": "'Segoe UI', Consolas, 'Courier New', monospace",
+    "markdown.preview.fontFamily": "'Segoe UI', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown.extension.print.theme": "dark",
+    "cSpell.userWords": [
+        "Intelli",
+        "Liberica",
+        "XAMPP"
+    ],
+    "terminal.integrated.fontFamily": "monospace",
+    "window.zoomLevel": -1,
+    "debug.allowBreakpointsEverywhere": true,
+    "notebook.lineNumbers": "on",
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+}

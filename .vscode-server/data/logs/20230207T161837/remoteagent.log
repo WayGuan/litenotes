@@ -1,0 +1,45 @@
+[2023-02-07 16:18:37.837] [remoteagent] [info] Extension host agent started.
+[2023-02-07 16:18:38.115] [remoteagent] [info] [127.0.0.1][9925c962][ManagementConnection] New connection established.
+[2023-02-07 16:18:38.639] [remoteagent] [info] [127.0.0.1][431726c8][ExtensionHostConnection] New connection established.
+[2023-02-07 16:18:38.651] [remoteagent] [info] [127.0.0.1][431726c8][ExtensionHostConnection] <1053> Launched Extension Host Process.
+[2023-02-07 16:18:43.130] [remoteagent] [info] Getting Manifest... bmewburn.vscode-intelephense-client
+[2023-02-07 16:18:43.130] [remoteagent] [info] Getting Manifest... shufo.vscode-blade-formatter
+[2023-02-07 16:18:43.374] [remoteagent] [info] Installing extension: bmewburn.vscode-intelephense-client
+[2023-02-07 16:18:43.416] [remoteagent] [info] Installing extension: shufo.vscode-blade-formatter
+[2023-02-07 16:18:45.807] [remoteagent] [info] Downloaded extension: bmewburn.vscode-intelephense-client /home/weiwei/.vscode-server/data/CachedExtensionVSIXs/bmewburn.vscode-intelephense-client-1.9.5
+[2023-02-07 16:18:47.011] [remoteagent] [info] Extracted extension to /home/weiwei/.vscode-server/extensions/.7bbc7a34-d032-49ea-9729-fb57a6a8a895: bmewburn.vscode-intelephense-client
+[2023-02-07 16:18:47.245] [remoteagent] [info] Renamed to /home/weiwei/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.9.5
+[2023-02-07 16:18:47.249] [remoteagent] [info] Extracting completed. bmewburn.vscode-intelephense-client
+[2023-02-07 16:18:47.257] [remoteagent] [info] Extension installed successfully: bmewburn.vscode-intelephense-client
+[2023-02-07 16:18:50.098] [remoteagent] [info] Downloaded extension: shufo.vscode-blade-formatter /home/weiwei/.vscode-server/data/CachedExtensionVSIXs/shufo.vscode-blade-formatter-0.20.9
+[2023-02-07 16:19:03.091] [remoteagent] [info] Extracted extension to /home/weiwei/.vscode-server/extensions/.39b102e6-688b-44a1-8371-bc2e7083e97b: shufo.vscode-blade-formatter
+[2023-02-07 16:19:13.341] [remoteagent] [info] Renamed to /home/weiwei/.vscode-server/extensions/shufo.vscode-blade-formatter-0.20.9
+[2023-02-07 16:19:13.343] [remoteagent] [info] Extracting completed. shufo.vscode-blade-formatter
+[2023-02-07 16:19:13.372] [remoteagent] [info] Extension installed successfully: shufo.vscode-blade-formatter
+[2023-02-07 16:48:27.045] [remoteagent] [info] [127.0.0.1][431726c8][ExtensionHostConnection] The client has reconnected.
+[2023-02-07 17:28:53.261] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-07 18:22:31.079] [remoteagent] [info] [127.0.0.1][9925c962][ManagementConnection] The client has reconnected.
+[2023-02-07 18:22:38.995] [remoteagent] [info] [127.0.0.1][431726c8][ExtensionHostConnection] The client has reconnected.
+[2023-02-07 18:51:58.665] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: basic_string::_S_create (EUNKNOWN) (path: /home/weiwei)
+[2023-02-07 18:51:58.666] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: basic_string::_S_create
+[2023-02-07 18:53:44.443] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
+[2023-02-07 18:53:44.708] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/weiwei/litenotes/vendor/composer/a21b383c/symfony-event-dispatcher-contracts-0782b0b' failed: No such file or directory (EUNKNOWN) (path: /home/weiwei)
+[2023-02-07 18:53:44.708] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/weiwei/litenotes/vendor/composer/a21b383c/symfony-event-dispatcher-contracts-0782b0b' failed: No such file or directory
+[2023-02-07 18:53:44.949] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/weiwei/litenotes/vendor/composer/81c8e0f0/symfony-translation-6055692/Exception' failed: No such file or directory (EUNKNOWN) (path: /home/weiwei)
+[2023-02-07 18:53:44.949] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/weiwei/litenotes/vendor/composer/81c8e0f0/symfony-translation-6055692/Exception' failed: No such file or directory
+[2023-02-07 18:53:45.246] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
+[2023-02-07 18:54:29.614] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-07 18:57:25.622] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-07 18:57:30.624] [remoteagent] [error] No ptyHost heartbeat after 12 seconds
+[2023-02-07 18:58:18.628] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-07 19:05:06.847] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/weiwei)
+[2023-02-07 19:05:06.847] [remoteagent] [error] [File Watcher (universal)] gave up attempting to restart watcher after error: std::bad_alloc
+[2023-02-07 20:24:31.088] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-07 20:29:09.174] [remoteagent] [info] [127.0.0.1][431726c8][ExtensionHostConnection] The client has reconnected.
+[2023-02-07 20:29:09.798] [remoteagent] [info] [127.0.0.1][9925c962][ManagementConnection] The client has reconnected.
+[2023-02-07 21:09:04.228] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-07 22:25:59.002] [remoteagent] [info] [127.0.0.1][9925c962][ManagementConnection] The client has reconnected.
+[2023-02-07 22:25:59.851] [remoteagent] [info] [127.0.0.1][431726c8][ExtensionHostConnection] The client has reconnected.
+[2023-02-07 22:51:51.533] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-07 23:39:43.660] [remoteagent] [info] [127.0.0.1][9925c962][ManagementConnection] The client has reconnected.
+[2023-02-07 23:39:51.236] [remoteagent] [info] [127.0.0.1][431726c8][ExtensionHostConnection] The client has reconnected.

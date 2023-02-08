@@ -1,0 +1,42 @@
+[2023-01-31 10:02:01.428] [remoteagent] [info] Extension host agent started.
+[2023-01-31 10:02:01.750] [remoteagent] [info] [127.0.0.1][c272f94f][ManagementConnection] New connection established.
+[2023-01-31 10:02:02.378] [remoteagent] [info] [127.0.0.1][a7926fd8][ExtensionHostConnection] New connection established.
+[2023-01-31 10:02:02.387] [remoteagent] [info] [127.0.0.1][a7926fd8][ExtensionHostConnection] <994> Launched Extension Host Process.
+[2023-01-31 10:02:19.420] [remoteagent] [info] Getting Manifest... shufo.vscode-blade-formatter
+[2023-01-31 10:02:19.712] [remoteagent] [info] Installing extension: shufo.vscode-blade-formatter
+[2023-01-31 10:02:31.462] [remoteagent] [info] Downloaded extension: shufo.vscode-blade-formatter /home/weiwei/.vscode-server/data/CachedExtensionVSIXs/shufo.vscode-blade-formatter-0.20.8
+[2023-01-31 10:02:38.557] [remoteagent] [info] Extracted extension to /home/weiwei/.vscode-server/extensions/.07786f66-8c55-4902-a1da-3cc2bfd47142: shufo.vscode-blade-formatter
+[2023-01-31 10:02:38.568] [remoteagent] [info] Renamed to /home/weiwei/.vscode-server/extensions/shufo.vscode-blade-formatter-0.20.8
+[2023-01-31 10:02:38.570] [remoteagent] [info] Extracting completed. shufo.vscode-blade-formatter
+[2023-01-31 10:02:38.577] [remoteagent] [info] Extension installed successfully: shufo.vscode-blade-formatter
+[2023-01-31 11:32:17.571] [remoteagent] [info] Getting Manifest... mehedidracula.php-namespace-resolver
+[2023-01-31 11:32:17.808] [remoteagent] [info] Installing extension: mehedidracula.php-namespace-resolver
+[2023-01-31 11:32:18.501] [remoteagent] [info] Downloaded extension: mehedidracula.php-namespace-resolver /home/weiwei/.vscode-server/data/CachedExtensionVSIXs/mehedidracula.php-namespace-resolver-1.1.9
+[2023-01-31 11:32:18.524] [remoteagent] [info] Extracted extension to /home/weiwei/.vscode-server/extensions/.95dedc0c-e57c-4985-9073-40acebddd708: mehedidracula.php-namespace-resolver
+[2023-01-31 11:32:18.528] [remoteagent] [info] Renamed to /home/weiwei/.vscode-server/extensions/mehedidracula.php-namespace-resolver-1.1.9
+[2023-01-31 11:32:18.530] [remoteagent] [info] Extracting completed. mehedidracula.php-namespace-resolver
+[2023-01-31 11:32:18.531] [remoteagent] [info] Extension installed successfully: mehedidracula.php-namespace-resolver
+[2023-01-31 12:31:44.516] [remoteagent] [info] [127.0.0.1][1da21b88][ManagementConnection] New connection established.
+[2023-01-31 12:31:44.810] [remoteagent] [info] [127.0.0.1][0f147c6c][ExtensionHostConnection] New connection established.
+[2023-01-31 12:31:44.819] [remoteagent] [info] [127.0.0.1][0f147c6c][ExtensionHostConnection] <18084> Launched Extension Host Process.
+[2023-01-31 13:41:38.027] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-01-31 13:56:16.173] [remoteagent] [info] [127.0.0.1][1da21b88][ManagementConnection] The client has reconnected.
+[2023-01-31 13:56:16.956] [remoteagent] [info] [127.0.0.1][c272f94f][ManagementConnection] The client has reconnected.
+[2023-01-31 13:56:17.749] [remoteagent] [info] [127.0.0.1][0f147c6c][ExtensionHostConnection] The client has reconnected.
+[2023-01-31 13:56:19.049] [remoteagent] [info] [127.0.0.1][a7926fd8][ExtensionHostConnection] The client has reconnected.
+[2023-01-31 18:11:45.654] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-01-31 19:57:24.015] [remoteagent] [info] [127.0.0.1][a7926fd8][ExtensionHostConnection] The client has reconnected.
+[2023-01-31 19:57:25.384] [remoteagent] [info] [127.0.0.1][0f147c6c][ExtensionHostConnection] The client has reconnected.
+[2023-01-31 19:57:26.041] [remoteagent] [info] [127.0.0.1][1da21b88][ManagementConnection] The client has reconnected.
+[2023-01-31 19:57:26.490] [remoteagent] [info] [127.0.0.1][c272f94f][ManagementConnection] The client has reconnected.
+[2023-01-31 20:24:14.207] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-01-31 20:34:10.759] [remoteagent] [info] [127.0.0.1][1da21b88][ManagementConnection] The client has reconnected.
+[2023-01-31 20:34:15.469] [remoteagent] [info] [127.0.0.1][0f147c6c][ExtensionHostConnection] The client has reconnected.
+[2023-01-31 20:34:16.767] [remoteagent] [info] [127.0.0.1][c272f94f][ManagementConnection] The client has reconnected.
+[2023-01-31 20:34:17.322] [remoteagent] [info] [127.0.0.1][a7926fd8][ExtensionHostConnection] The client has reconnected.
+[2023-01-31 21:35:07.550] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-01 09:40:20.630] [remoteagent] [info] [127.0.0.1][a7926fd8][ExtensionHostConnection] The client has reconnected.
+[2023-02-01 09:40:26.106] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-01 09:40:26.223] [remoteagent] [info] [127.0.0.1][0f147c6c][ExtensionHostConnection] The client has reconnected.
+[2023-02-01 09:40:28.114] [remoteagent] [info] [127.0.0.1][c272f94f][ManagementConnection] The client has reconnected.
+[2023-02-01 09:40:29.445] [remoteagent] [info] [127.0.0.1][1da21b88][ManagementConnection] The client has reconnected.
