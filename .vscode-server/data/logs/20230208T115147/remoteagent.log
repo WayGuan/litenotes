@@ -1,0 +1,4 @@
+[2023-02-08 11:51:47.707] [remoteagent] [info] Extension host agent started.
+[2023-02-08 11:51:48.198] [remoteagent] [info] [127.0.0.1][dafdcb25][ManagementConnection] New connection established.
+[2023-02-08 11:51:50.895] [remoteagent] [info] [127.0.0.1][77449a80][ExtensionHostConnection] New connection established.
+[2023-02-08 11:51:50.909] [remoteagent] [info] [127.0.0.1][77449a80][ExtensionHostConnection] <290> Launched Extension Host Process.

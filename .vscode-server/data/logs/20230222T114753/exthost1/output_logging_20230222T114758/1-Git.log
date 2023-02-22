@@ -1,0 +1,22 @@
+[2023-02-22T16:48:02.503Z] Log level: Info
+[2023-02-22T16:48:02.527Z] [info] Validating found git in: git
+[2023-02-22T16:48:02.640Z] [info] Using git 2.34.1 from git
+[2023-02-22T16:48:02.738Z] > git rev-parse --show-toplevel [27ms]
+[2023-02-22T16:48:02.776Z] > git rev-parse --git-dir --git-common-dir [5ms]
+[2023-02-22T16:48:02.815Z] [info] Open repository: /home/weiwei
+[2023-02-22T16:48:02.891Z] > git rev-parse --show-toplevel [24ms]
+[2023-02-22T16:48:02.975Z] > git rev-parse --show-toplevel [70ms]
+[2023-02-22T16:48:02.997Z] > git rev-parse --show-toplevel [3ms]
+[2023-02-22T16:48:03.215Z] > git rev-parse --show-toplevel [187ms]
+[2023-02-22T16:48:03.233Z] > git rev-parse --show-toplevel [3ms]
+[2023-02-22T16:48:03.279Z] > git rev-parse --show-toplevel [24ms]
+[2023-02-22T16:48:03.305Z] > git rev-parse --show-toplevel [5ms]
+[2023-02-22T16:48:03.322Z] > git rev-parse --show-toplevel [2ms]
+[2023-02-22T16:48:03.344Z] > git rev-parse --show-toplevel [2ms]
+[2023-02-22T16:48:03.367Z] > git rev-parse --show-toplevel [3ms]
+[2023-02-22T16:48:03.402Z] > git rev-parse --show-toplevel [18ms]
+[2023-02-22T16:48:03.528Z] > git rev-parse --show-toplevel [116ms]
+[2023-02-22T16:48:03.687Z] > git check-ignore -v -z --stdin [162ms]
+[2023-02-22T16:48:08.457Z] > git status -z -uall [5603ms]
+[2023-02-22T16:48:09.047Z] > git show --textconv :litenotes/resources/views/notes/index.blade.php [36ms]
+[2023-02-22T16:48:09.050Z] > git ls-files --stage -- /home/weiwei/litenotes/resources/views/notes/index.blade.php [26ms]

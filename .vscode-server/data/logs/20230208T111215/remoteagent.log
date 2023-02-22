@@ -1,0 +1,4 @@
+[2023-02-08 11:12:15.520] [remoteagent] [info] Extension host agent started.
+[2023-02-08 11:12:15.768] [remoteagent] [info] [127.0.0.1][97194ea4][ManagementConnection] New connection established.
+[2023-02-08 11:12:16.916] [remoteagent] [info] [127.0.0.1][56f1fa72][ExtensionHostConnection] New connection established.
+[2023-02-08 11:12:16.969] [remoteagent] [info] [127.0.0.1][56f1fa72][ExtensionHostConnection] <5810> Launched Extension Host Process.

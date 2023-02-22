@@ -1,0 +1,10 @@
+[Info  - 3:18:37 PM] Initialising intelephense 1.9.5
+[Info  - 3:18:37 PM] Reading state from /home/weiwei/.vscode-server/data/User/workspaceStorage/da3404f4862fbe30c4202d77e0f7f5e8/bmewburn.vscode-intelephense-client/60badfe8.
+[Info  - 3:18:38 PM] Initialised in 1809 ms
+[Info  - 3:18:39 PM] Searching file:///home/weiwei/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.9.5/node_modules/intelephense/lib/stub for files to index.
+[Info  - 3:18:39 PM] Searching file:///home/weiwei/litenotes for files to index.
+[Warn  - 3:18:40 PM] file:///home/weiwei/litenotes/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
+[Info  - 3:18:40 PM] Indexing started.
+[Info  - 3:18:40 PM] Indexing ended. 9 files indexed in 0s.
+[Info  - 3:18:40 PM] Writing state to /home/weiwei/.vscode-server/data/User/workspaceStorage/da3404f4862fbe30c4202d77e0f7f5e8/bmewburn.vscode-intelephense-client/60badfe8.
+[Info  - 3:18:41 PM] Wrote state in 1.0s.

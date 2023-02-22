@@ -1,0 +1,7 @@
+[2023-02-22 14:20:04.390] [remoteagent] [info] Extension host agent started.
+[2023-02-22 14:20:04.668] [remoteagent] [info] [127.0.0.1][17d0d2fc][ManagementConnection] New connection established.
+[2023-02-22 14:20:05.638] [remoteagent] [info] [127.0.0.1][dfdb61b6][ExtensionHostConnection] New connection established.
+[2023-02-22 14:20:06.872] [remoteagent] [info] [127.0.0.1][dfdb61b6][ExtensionHostConnection] <648> Launched Extension Host Process.
+[2023-02-22 14:20:07.957] [remoteagent] [info] Deleted from disk shufo.vscode-blade-formatter /home/weiwei/.vscode-server/extensions/shufo.vscode-blade-formatter-0.20.9
+[2023-02-22 15:18:20.151] [remoteagent] [info] [127.0.0.1][17d0d2fc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-02-22 15:18:20.258] [remoteagent] [info] [127.0.0.1][dfdb61b6][ExtensionHostConnection] <648> Extension Host Process exited with code: 0, signal: null.

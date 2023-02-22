@@ -1,0 +1,161 @@
+[2023-02-22 14:20:09.951] [exthost] [info] Extension host with pid 648 started
+[2023-02-22 14:20:09.984] [exthost] [error] Error: EEXIST: file already exists, open '/home/weiwei/.vscode-server/data/User/workspaceStorage/da3404f4862fbe30c4202d77e0f7f5e8/vscode.lock'
+[2023-02-22 14:20:10.021] [exthost] [info] Lock '/home/weiwei/.vscode-server/data/User/workspaceStorage/da3404f4862fbe30c4202d77e0f7f5e8/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-02-22 14:20:10.022] [exthost] [info] Lock '/home/weiwei/.vscode-server/data/User/workspaceStorage/da3404f4862fbe30c4202d77e0f7f5e8/vscode.lock': The pid 508 appears to be gone.
+[2023-02-22 14:20:10.022] [exthost] [info] Lock '/home/weiwei/.vscode-server/data/User/workspaceStorage/da3404f4862fbe30c4202d77e0f7f5e8/vscode.lock': Deleting a stale lock.
+[2023-02-22 14:20:10.139] [exthost] [info] Lock '/home/weiwei/.vscode-server/data/User/workspaceStorage/da3404f4862fbe30c4202d77e0f7f5e8/vscode.lock': Lock acquired.
+[2023-02-22 14:20:10.796] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade, startup: false, activationEvent: 'onLanguage:blade'
+[2023-02-22 14:20:10.807] [exthost] [info] ExtensionService#_doActivateExtension shufo.vscode-blade-formatter, startup: false, activationEvent: 'onLanguage:blade'
+[2023-02-22 14:20:10.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-02-22 14:20:10.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-02-22 14:20:10.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-02-22 14:20:13.423] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2023-02-22 14:20:13.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-02-22 14:20:13.797] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-02-22 14:20:15.025] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-02-22 14:20:15.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-02-22 14:20:15.036] [exthost] [info] Eager extensions activated
+[2023-02-22 14:20:15.232] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2023-02-22 14:20:15.233] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2023-02-22 14:20:15.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2023-02-22 14:24:58.725] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2023-02-22 14:24:58.726] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client, startup: false, activationEvent: 'onLanguage:php'
+[2023-02-22 14:24:58.726] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-namespace-resolver, startup: false, activationEvent: 'onLanguage:php'
+[2023-02-22 15:04:16.786] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2023-02-22 15:18:20.152] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-02-22 15:18:20.153] [exthost] [info] Lock '/home/weiwei/.vscode-server/data/User/workspaceStorage/da3404f4862fbe30c4202d77e0f7f5e8/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-02-22 15:18:20.187] [exthost] [error] An error occurred when deactivating the subscriptions for extension 'bmewburn.vscode-intelephense-client':
+[2023-02-22 15:18:20.188] [exthost] [error] TypeError: Cannot read private member from an object whose class did not declare it
+	at Be (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:6990)
+	at Object.dispose (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:88:13905)
+	at P (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:10:12171)
+	at p._deactivate (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:13490)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:10637
+	at Array.map (<anonymous>)
+	at p._deactivateAll (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:10624)
+	at p.terminate (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:11010)
+	at p.terminate (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:106:620)
+	at m (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:116:19115)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:116:17043
+	at p.invoke (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:34570)
+	at b.acceptFrame (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:34226)
+	at p._acceptChunk (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:32190)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:29375
+	at Socket.d (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:27128)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+[2023-02-22 15:18:20.188] [exthost] [error] An error occurred when deactivating the subscriptions for extension 'MehediDracula.php-namespace-resolver':
+[2023-02-22 15:18:20.188] [exthost] [error] TypeError: o.dispose is not a function
+	at P (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:10:12171)
+	at p._deactivate (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:13490)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:10637
+	at Array.map (<anonymous>)
+	at p._deactivateAll (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:10624)
+	at p.terminate (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:102:11010)
+	at p.terminate (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:106:620)
+	at m (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:116:19115)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:116:17043
+	at p.invoke (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:34570)
+	at b.acceptFrame (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:34226)
+	at p._acceptChunk (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:32190)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:29375
+	at Socket.d (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:69:27128)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+[2023-02-22 15:18:20.195] [exthost] [error] Canceled: Canceled
+	at new C (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:90699)
+	at i._remoteCall (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:13737)
+	at Proxy.A.<computed>.z.charCodeAt.A.<computed> (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:10292)
+	at _.showMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:92:91633)
+	at Object.showErrorMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:111:43349)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/main.js:2:1069566
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async n._executeContributedCommand (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:111316)
+	at async n._executeContributedCommand (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:111316) git.commit {"value":"vscode.git","_lower":"vscode.git"}
+[2023-02-22 15:18:20.195] [exthost] [error] Canceled: Canceled
+	at new C (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:90699)
+	at i._remoteCall (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:13737)
+	at Proxy.A.<computed>.z.charCodeAt.A.<computed> (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:10292)
+	at _.showMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:92:91633)
+	at Object.showErrorMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:111:43349)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/main.js:2:1069566
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async n._executeContributedCommand (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:111316)
+	at async n._executeContributedCommand (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:111316) _vscode_delegate_cmd_leg28fcl undefined
+[2023-02-22 15:18:20.195] [exthost] [error] Canceled: Canceled
+	at new C (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:90699)
+	at i._remoteCall (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:13737)
+	at Proxy.A.<computed>.z.charCodeAt.A.<computed> (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:10292)
+	at _.showMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:92:91633)
+	at Object.showErrorMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:111:43349)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/main.js:2:1069566
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async n._executeContributedCommand (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:111316) git.refresh {"value":"vscode.git","_lower":"vscode.git"}
+[2023-02-22 15:18:20.196] [exthost] [error] Canceled: Canceled
+	at new C (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:90699)
+	at i._remoteCall (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:13737)
+	at Proxy.A.<computed>.z.charCodeAt.A.<computed> (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:10292)
+	at _.showMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:92:91633)
+	at Object.showErrorMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:111:43349)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/main.js:2:1069566
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async n._executeContributedCommand (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:111316) git.refresh {"value":"vscode.git","_lower":"vscode.git"}
+[2023-02-22 15:18:20.196] [exthost] [error] Canceled: Canceled
+	at new C (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:90699)
+	at i._remoteCall (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:13737)
+	at Proxy.A.<computed>.z.charCodeAt.A.<computed> (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:10292)
+	at _.showMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:92:91633)
+	at Object.showErrorMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:111:43349)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/main.js:2:1069566
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async n._executeContributedCommand (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:111316) git.refresh {"value":"vscode.git","_lower":"vscode.git"}
+[2023-02-22 15:18:20.196] [exthost] [error] Canceled: Canceled
+	at new C (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:90699)
+	at i._remoteCall (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:13737)
+	at Proxy.A.<computed>.z.charCodeAt.A.<computed> (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:100:10292)
+	at _.showMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:92:91633)
+	at Object.showErrorMessage (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:111:43349)
+	at /home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/main.js:2:1069566
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async n._executeContributedCommand (/home/weiwei/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/workbench/api/node/extensionHostProcess.js:90:111316) git.refresh {"value":"vscode.git","_lower":"vscode.git"}
+[2023-02-22 15:18:20.222] [exthost] [info] Extension host with pid 648 exiting with code 0

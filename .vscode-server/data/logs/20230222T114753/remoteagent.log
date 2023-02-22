@@ -1,0 +1,11 @@
+[2023-02-22 11:47:53.823] [remoteagent] [info] Extension host agent started.
+[2023-02-22 11:47:56.203] [remoteagent] [info] [127.0.0.1][7bebdeb0][ManagementConnection] New connection established.
+[2023-02-22 11:47:56.215] [remoteagent] [info] [127.0.0.1][532c5e12][ExtensionHostConnection] New connection established.
+[2023-02-22 11:47:56.226] [remoteagent] [info] [127.0.0.1][532c5e12][ExtensionHostConnection] <508> Launched Extension Host Process.
+[2023-02-22 11:48:08.985] [remoteagent] [info] Getting Manifest... shufo.vscode-blade-formatter
+[2023-02-22 11:48:09.255] [remoteagent] [info] Installing extension: shufo.vscode-blade-formatter
+[2023-02-22 11:48:12.418] [remoteagent] [info] Downloaded extension: shufo.vscode-blade-formatter /home/weiwei/.vscode-server/data/CachedExtensionVSIXs/shufo.vscode-blade-formatter-0.20.10
+[2023-02-22 11:48:25.139] [remoteagent] [info] Extracted extension to /home/weiwei/.vscode-server/extensions/.6f24e384-af04-4d36-9225-25d2bdf37692: shufo.vscode-blade-formatter
+[2023-02-22 11:48:25.165] [remoteagent] [info] Renamed to /home/weiwei/.vscode-server/extensions/shufo.vscode-blade-formatter-0.20.10
+[2023-02-22 11:48:25.170] [remoteagent] [info] Extracting completed. shufo.vscode-blade-formatter
+[2023-02-22 11:48:25.185] [remoteagent] [info] Extension installed successfully: shufo.vscode-blade-formatter
